@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
     }
 
+
     function addCharacterToBar(character) {
         const span = document.createElement("span");
         span.textContent = character.name;
@@ -59,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    
     resetButton.addEventListener("click", () => {
         if (!currentCharacter) return;
 
